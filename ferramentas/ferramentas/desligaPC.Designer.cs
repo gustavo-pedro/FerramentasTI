@@ -116,6 +116,7 @@
             this.btnDesligaMin.TabIndex = 1;
             this.btnDesligaMin.Text = "Agendar";
             this.btnDesligaMin.UseVisualStyleBackColor = true;
+            this.btnDesligaMin.Click += new System.EventHandler(this.btnDesligaMin_Click);
             // 
             // groupBox3
             // 
